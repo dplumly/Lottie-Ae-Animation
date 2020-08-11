@@ -13,5 +13,8 @@ let animation = lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'js/data.json' // the path to the animation json
+    // path: 'js/data.json' // the path to the animation json
+    path: 'https://assets4.lottiefiles.com/packages/lf20_4fnpPI.json'
 });
+
+lottie.play();
