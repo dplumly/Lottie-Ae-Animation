@@ -8,13 +8,14 @@
 // })
 
 
-let animation = lottie.loadAnimation({
-    container: document.getElementById('lottie'), // Required
+let animation = bodymovin.loadAnimation({
+    container: document.getElementById('lottie'),
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    // path: 'js/data.json' // the path to the animation json
-    path: 'https://assets4.lottiefiles.com/packages/lf20_4fnpPI.json'
+    path: 'js/data.json'
+    // path: 'https://assets4.lottiefiles.com/packages/lf20_4fnpPI.json'
+    // path: 'https://lottiefiles.com/share/NDMwF1'
 });
 
-lottie.play();
+// lottie.play();
