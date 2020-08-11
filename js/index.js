@@ -14,8 +14,5 @@ let animation = bodymovin.loadAnimation({
     loop: true,
     autoplay: true,
     path: 'js/data.json'
-    // path: 'https://assets4.lottiefiles.com/packages/lf20_4fnpPI.json'
-    // path: 'https://lottiefiles.com/share/NDMwF1'
 });
 
-// lottie.play();
